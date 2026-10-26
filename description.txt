@@ -1,0 +1,3 @@
+Automatically become Vodyanitsa: a land-dwelling maiden and an aquatic mermaid.
+Swim freely in ordinary water without a breath, mana, or stamina limit.
+No equipment is required. Existing equipment stats, weapons, and native collisions remain active.

@@ -1,0 +1,18 @@
+沃雅妮莎 · 自动玩家变身
+
+启用后自动替换玩家外观，无需时装、饰品、药水或指令。
+陆地双腿形态，普通水中切换鱼尾；方向键自由游泳，跳跃键上浮，无额外资源消耗并可水下呼吸。熔岩、蜂蜜、微光不触发该能力。装备效果、原始存档外貌和原版碰撞保留。
+
+模组配置中的 Enabled 可关闭变身与游泳能力，由服务器统一控制。与 OdetteCharacter 同时启用时，若 Vodyanitsa.Enabled=true，沃雅妮莎优先；使用奥黛塔时停用本模组或关闭该配置，不必删除文件。
+
+非官方同人制作，角色图集使用 AI 辅助生成。原创贡献按 MIT 开源；角色及第三方既有知识产权归原权利人。未实测真实双客户端联机，不保证所有第三方外观层兼容。
+源码：https://github.com/ifgifg/Vodyanitsa
+
+Vodyanitsa — automatic player transformation
+
+No equipment, consumables or commands required. Walk in land form; enter ordinary water for a mermaid appearance, directional swimming and underwater breathing without an extra resource cost. The jump key also swims upward. Lava, honey and shimmer do not activate these abilities. Equipment effects, saved appearance and native collision are retained.
+
+The server-controlled Enabled setting turns the transformation and swimming off. When both this mod and OdetteCharacter are enabled, Vodyanitsa takes priority while its Enabled setting is true. Disable this mod or that setting to display Odette.
+
+Unofficial fan-made project with AI-assisted character artwork. Original contributions are MIT-licensed; underlying character and other third-party rights remain with their owners. Real two-client multiplayer has not been tested, and custom visual layers from other mods may be hidden.
+Source: https://github.com/ifgifg/Vodyanitsa

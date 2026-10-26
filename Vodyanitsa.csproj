@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Vodyanitsa</AssemblyName>
+    <BuildMod>false</BuildMod>
+    <TMLPath Condition="'$(TMLPath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\tModLoader</TMLPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(TMLPath)\tModLoader.dll" Private="false" />
+    <Reference Include="$(TMLPath)\Libraries\**\*.dll" Private="false" />
+    <Reference Remove="$(TMLPath)\Libraries\Native\**" />
+    <Reference Remove="$(TMLPath)\Libraries\**\runtime*\**" />
+    <Reference Remove="$(TMLPath)\Libraries\**\*.resources.dll" />
+    <Reference Remove="$(TMLPath)\Libraries\tModCodeAssist\**" />
+  </ItemGroup>
+</Project>

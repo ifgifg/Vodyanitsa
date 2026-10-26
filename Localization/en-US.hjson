@@ -1,0 +1,14 @@
+Mods: {
+	Vodyanitsa: {
+		Configs: {
+			VodyanitsaConfig: {
+				DisplayName: Vodyanitsa transformation
+
+				Enabled: {
+					Label: Enable Vodyanitsa
+					Tooltip: Automatically transforms every player. Enables unlimited ordinary-water swimming and underwater breathing. Equipment stats and saved appearance are preserved. This setting is shared by the server.
+				}
+			}
+		}
+	}
+}

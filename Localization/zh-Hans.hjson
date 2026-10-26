@@ -1,0 +1,14 @@
+Mods: {
+	Vodyanitsa: {
+		Configs: {
+			VodyanitsaConfig: {
+				DisplayName: 沃雅妮莎变身
+
+				Enabled: {
+					Label: 启用沃雅妮莎
+					Tooltip: 自动替换所有玩家外观，在普通水中无限自由游泳和呼吸。保留装备属性与存档中的原始外貌。此设置由服务器统一控制。
+				}
+			}
+		}
+	}
+}

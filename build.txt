@@ -1,0 +1,5 @@
+displayName = Vodyanitsa · 沃雅妮莎
+author = Local Character Studio
+version = 1.0.0
+side = Both
+buildIgnore = *.csproj, *.ps1, README*, ASSET-CONTRACT*, Art/*, Tools/*, bin/*, obj/*, docs/*, icon_workshop.png

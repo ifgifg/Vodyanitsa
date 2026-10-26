@@ -1,0 +1,30 @@
+{
+  "landFrames": [
+    { "name": "idle",  "x": 14,   "y": 40,  "width": 366, "height": 492, "anchorX": 210, "anchorY": 486, "scale": 0.112, "shoulderX": 171, "shoulderY": 212 },
+    { "name": "walk1", "x": 394,  "y": 44,  "width": 368, "height": 486, "anchorX": 248, "anchorY": 481, "scale": 0.112, "shoulderX": 209, "shoulderY": 206 },
+    { "name": "walk2", "x": 784,  "y": 46,  "width": 358, "height": 488, "anchorX": 240, "anchorY": 482, "scale": 0.112, "shoulderX": 188, "shoulderY": 206 },
+    { "name": "walk3", "x": 1153, "y": 46,  "width": 366, "height": 485, "anchorX": 239, "anchorY": 480, "scale": 0.112, "shoulderX": 192, "shoulderY": 205 },
+    { "name": "walk4", "x": 12,   "y": 536, "width": 351, "height": 466, "anchorX": 213, "anchorY": 461, "scale": 0.112, "shoulderX": 174, "shoulderY": 207 },
+    { "name": "jump",  "x": 393,  "y": 528, "width": 382, "height": 415, "anchorX": 251, "anchorY": 406, "scale": 0.112, "shoulderX": 209, "shoulderY": 203 },
+    { "name": "fall",  "x": 777,  "y": 536, "width": 366, "height": 456, "anchorX": 247, "anchorY": 450, "scale": 0.112, "shoulderX": 195, "shoulderY": 205 },
+    { "name": "sit",   "x": 1155, "y": 572, "width": 364, "height": 421, "anchorX": 245, "anchorY": 415, "scale": 0.112, "shoulderX": 180, "shoulderY": 205 }
+  ],
+  "waterFrames": [
+    { "name": "swim1", "x": 18,   "y": 202, "width": 374, "height": 245, "anchorX": 268, "anchorY": 164, "scale": 0.15, "shoulderX": 252, "shoulderY": 135 },
+    { "name": "swim2", "x": 409,  "y": 202, "width": 351, "height": 239, "anchorX": 243, "anchorY": 164, "scale": 0.15, "shoulderX": 235, "shoulderY": 135 },
+    { "name": "swim3", "x": 790,  "y": 205, "width": 346, "height": 239, "anchorX": 240, "anchorY": 165, "scale": 0.15, "shoulderX": 227, "shoulderY": 134 },
+    { "name": "swim4", "x": 1160, "y": 204, "width": 363, "height": 239, "anchorX": 260, "anchorY": 164, "scale": 0.15, "shoulderX": 244, "shoulderY": 134 },
+    { "name": "swim5", "x": 17,   "y": 576, "width": 382, "height": 241, "anchorX": 282, "anchorY": 166, "scale": 0.15, "shoulderX": 267, "shoulderY": 136 },
+    { "name": "swim6", "x": 409,  "y": 576, "width": 359, "height": 255, "anchorX": 256, "anchorY": 169, "scale": 0.15, "shoulderX": 241, "shoulderY": 138 },
+    { "name": "swim7", "x": 792,  "y": 576, "width": 353, "height": 266, "anchorX": 251, "anchorY": 168, "scale": 0.15, "shoulderX": 237, "shoulderY": 136 },
+    { "name": "swim8", "x": 1151, "y": 576, "width": 372, "height": 260, "anchorX": 269, "anchorY": 168, "scale": 0.15, "shoulderX": 254, "shoulderY": 138 }
+  ],
+  "portraitTexture": "Portrait",
+  "portrait": { "x": 0, "y": 0, "width": 260, "height": 200, "anchorX": 130, "anchorY": 100, "scale": 0.105, "shoulderX": 0, "shoulderY": 0 },
+  "armFrames": [
+    { "name": "landStraight",  "x": 157,  "y": 114, "width": 271, "height": 548, "anchorX": 165, "anchorY": 61, "scale": 0.035, "shoulderX": 165, "shoulderY": 61, "handX": 185, "handY": 482 },
+    { "name": "landBent",      "x": 717,  "y": 134, "width": 325, "height": 473, "anchorX": 116, "anchorY": 60, "scale": 0.035, "shoulderX": 116, "shoulderY": 60, "handX": 249, "handY": 407 },
+    { "name": "waterStraight", "x": 1285, "y": 134, "width": 163, "height": 519, "anchorX": 65,  "anchorY": 57, "scale": 0.035, "shoulderX": 65,  "shoulderY": 57, "handX": 102, "handY": 453 },
+    { "name": "waterBent",     "x": 1759, "y": 143, "width": 281, "height": 456, "anchorX": 104, "anchorY": 60, "scale": 0.035, "shoulderX": 104, "shoulderY": 60, "handX": 208, "handY": 394 }
+  ]
+}

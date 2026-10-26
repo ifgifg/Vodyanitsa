@@ -1,0 +1,34 @@
+Vodyanitsa asset interface (UTF-8 JSON, property names case-insensitive)
+
+Assets/Character/Land.png: generated transparent atlas, eight arbitrary rectangles.
+Assets/Character/Water.png: generated transparent atlas, eight arbitrary rectangles.
+Assets/Character/Arms.png: optional transparent front-arm rectangles.
+Assets/Character/atlas.json:
+{
+  "landFrames": [ eight frame objects ],
+  "waterFrames": [ eight frame objects ],
+  "portrait": { face crop within Land.png },
+  "portraitTexture": "Land",
+  "armFrames": [ landStraight, landBent, waterStraight, waterBent ]
+}
+
+Each frame: x,y,width,height,anchorX,anchorY,scale,shoulderX,shoulderY.
+Source x/y/width/height are integer texture pixels. Anchor/shoulder coordinates
+are relative to the source rectangle. Scale converts source to world pixels.
+Keep one consistent pixels-to-world scale across body poses. All crops must
+stay inside their texture. No white/checkerboard/matte background.
+
+Land order: idle, walk1, walk2, walk3, walk4, jump, fall, sit.
+Land anchor: foot contact point. Typical visible height 52-58 world pixels.
+Water: eight loop frames; head faces right, tail extends left. Anchor is torso
+center (NOT center of the full tail bounding box), aligned to the player's
+native collision center. The collision box never changes.
+Portrait: crop of Land.png showing head/hair; anchor at crop center; typically
+20-24 world pixels high. Used only for native head-only rendering. Alternatively
+set portraitTexture to "Portrait" and provide Assets/Character/Portrait.png;
+the portrait rectangle then refers to that separate texture.
+Arms: all point downward; anchor at shoulder. Four frames distinguish land
+sleeves and aquatic bare arms. Two shared straight/bent poses are also accepted.
+Foreground arm is always drawn,
+so body art must omit the complete near arm instead of duplicating it. Optional
+handX/handY coordinates aim the drawn hand toward the native held-item handle.

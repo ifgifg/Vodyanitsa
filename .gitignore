@@ -1,0 +1,62 @@
+# Build outputs and editor state
+bin/
+obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.dll
+*.pdb
+*.tmod
+*.zip
+*.7z
+
+# Isolated build/test runtimes and local publication staging
+*Build/
+build-runtime/
+build-save/
+runtime/
+release/
+qa/
+QA/
+publish-staging/
+Logs/
+logs/
+*.log
+*.pid
+*.bak
+*.tmp
+*.cache
+
+# Private game state and local credentials; atlas.json remains tracked
+/Players/
+/Worlds/
+/ModConfigs/
+/Mods/
+**/config.json
+**/enabled.json
+**/steam_autocloud.vdf
+.env
+.env.*
+*.pfx
+*.p12
+*.pem
+*.key
+*.plr
+*.tplr
+*.wld
+*.twld
+
+# Research-only references, downloaded game assets, and local tool experiments
+_refs/
+reference-only/
+_devtools/
+Art/
+Tools/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+

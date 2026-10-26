@@ -1,0 +1,47 @@
+Vodyanitsa public source allowlist (2026-10-26)
+Version: 1.0.0
+Files: 31
+
+Copy only the paths below, preserving directory names and case.
+Do not publish the surrounding development workspace or sibling *Build folders.
+Excluded: bin/obj, DLL/PDB/TMOD/ZIP outputs, runtime libraries, save directories,
+personal logs/configs, Players/Worlds, research references, Workshop downloads,
+and vanilla item texture exports. .gitignore also guards these common paths.
+
+Original source/art contributions: MIT; underlying third-party IP excluded.
+See THIRD_PARTY_NOTICES.md. Runtime PNGs have no text/EXIF metadata chunks.
+Release .tmod files should be uploaded separately from their verified packages;
+documentation-only preparation does not require rebuilding those binaries.
+
+FILES:
+.gitignore
+ASSET-CONTRACT.txt
+Assets/Character/Arms.png
+Assets/Character/atlas.json
+Assets/Character/Land.png
+Assets/Character/Portrait.png
+Assets/Character/Water.png
+build.ps1
+build.txt
+Common/Config/VodyanitsaConfig.cs
+Common/Drawing/CharacterAtlas.cs
+Common/Drawing/HeldItemPose.cs
+Common/Drawing/VodyanitsaDrawLayers.cs
+Common/Players/VodyanitsaPlayer.cs
+Common/Swimming/SwimPhysics.cs
+Common/Swimming/WaterContact.cs
+description.txt
+description_workshop.txt
+icon_small.png
+icon.png
+LICENSE
+Localization/en-US.hjson
+Localization/zh-Hans.hjson
+PUBLIC-SOURCE-MANIFEST.txt
+README.md
+README.txt
+THIRD_PARTY_NOTICES.md
+Vodyanitsa.cs
+Vodyanitsa.csproj
+icon_workshop.png
+docs/images/preview.png
